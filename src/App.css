@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.h1 {
+  text-align: left;
+  display: flex;
+}
+.CountryItem li {
+  list-style-type: none;
+}
+/* .CountryItem {
+} */
+
+.countriesNumber {
+  color: gray;
+}
