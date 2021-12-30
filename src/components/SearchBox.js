@@ -1,10 +1,10 @@
-//import { useState } from 'react' 
-//  onChange={}
-export default function SearchBox(props) {
-    return (<input type="text" placeholder="Type Country name" onChange={props.func}>
-    </input>
-    
-    );
+import { searchContext } from "../App";
+import { useContext } from 'react'
+
+export default function SearchBox() {
+    const v = useContext(searchContext)
+    return (<input type="text" placeholder="Type Country name" onChange={e => v(e.target.value)}>
+    </input>);
 }
 
 

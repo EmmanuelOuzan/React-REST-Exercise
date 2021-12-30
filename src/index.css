@@ -12,3 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.popupBackground {
+  background-color: grey;
+  z-index: 1;
+  position: fixed;
+}
+
+.popupCenter {
+  background-color: white;
+  border-radius: 50px;
+}

@@ -48,4 +48,14 @@
 
 .countriesNumber {
   color: gray;
+  padding-right: 10px;
+}
+.NavBar { 
+  position: fixed;
+}
+.CountryName {
+  font-weight: bold;
+}
+.region {
+  color: gray;
 }
